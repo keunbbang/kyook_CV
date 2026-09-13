@@ -6,3 +6,15 @@
 @media(max-width:440px){.wrap{padding-left:24px;padding-right:24px}.header-inner{padding-left:24px;padding-right:24px}.hero{padding-top:40px}h1{font-size:clamp(44px,14vw,61px);letter-spacing:-2.5px}.hero-role{font-size:15px}.profile-links{font-size:13px;gap:21px}.affiliation{padding:22px 20px;column-gap:22px}.affiliation-school{font-size:25px}.affiliation-home{font-size:14px}.affiliation-bottom{font-size:11px}.affiliation-lab{font-size:12px}.timeline-row{grid-template-columns:1fr;gap:10px;padding:25px 0}.current-label{grid-column:1;margin-top:0}.item-kicker{font-size:12px}h3{font-size:17px}.publication-meta{flex-wrap:wrap;gap:3px 14px}.publication h3{font-size:22px}.skills-grid{grid-template-columns:1fr;gap:25px}.presentation-meta{align-items:start;flex-direction:column;gap:9px}.manuscripts>summary span{font-size:11px}.email{font-size:20px}.footer-bottom{flex-direction:column;gap:4px}.footer-bottom:before{left:24px;right:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{html{scroll-padding-top:0}body{background:white;font-size:11pt}.site-header,.hero-footer,.profile-links,.affiliation,.contact-links,.footer-bottom,.skip-link{display:none}.wrap{max-width:none;padding-left:0;padding-right:0}.hero{padding-top:0;display:block}.hero h1{font-size:44pt;line-height:1;margin:12pt 0}.hero h1 br{display:none}.hero h1 span:before{content:" "}.hero-role{font-size:11pt}.section{display:block;padding:20pt 0;break-inside:auto}.section-heading{display:block;margin-bottom:12pt}.section-number{display:none}h2{font-size:20pt}.section-heading h2 br{display:none}.section-content article{break-inside:avoid}.publications-band{background:white}.publication{padding:12pt 0}.publication h3{font-size:14pt}.section-aside,.section-heading .text-link,.publication-bottom,.manuscripts{display:none}.timeline-row{grid-template-columns:125pt 1fr;padding:12pt 0}.contact{background:white;color:var(--ink);padding:12pt 0}.contact-inner{padding:0}.contact .eyebrow{display:none}.contact h2{font-size:20pt}.email{font-size:12pt}.skills-grid{gap:16pt}.current-label{display:none}}
+
+/* Original CV portrait, with a responsive presentation crop. */
+.hero-profile{margin:0;align-self:center}
+.portrait-frame{aspect-ratio:4/5;overflow:hidden;background:#d6d2ce;border-radius:2px}
+.portrait-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.portrait-caption{padding-top:17px}
+.portrait-school{font-size:16px;font-weight:500;color:var(--green)}
+.portrait-lab{font-size:14px;color:var(--muted);margin-top:3px}
+.portrait-role{font-size:12px;color:var(--muted);line-height:1.8;margin-top:9px}
+@media(max-width:760px){.hero-profile{display:grid;grid-template-columns:min(40%,200px) minmax(0,1fr);gap:24px;align-items:center}.portrait-caption{padding-top:0}}
+@media(max-width:440px){.hero-profile{gap:18px}.portrait-school{font-size:16px;line-height:1.5}.portrait-lab{font-size:13px;line-height:1.7}.portrait-role{font-size:12px}}
+@media print{.hero-profile{display:none}}
