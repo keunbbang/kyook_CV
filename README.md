@@ -4,7 +4,7 @@ A self-contained academic website built with HTML, CSS, and a small progressive-
 
 ## Files
 
-- `dist/index.html`: profile, appointments, publications, education, presentations, and skills
+- `dist/index.html`: profile, appointments, publications, education, fellowship, presentations, and skills
 - `dist/assets/style.css`: desktop, mobile, and print layouts
 - `dist/assets/site.js`: active navigation indicator; content and links work without JavaScript
 - `dist/assets/Keun_Young_Yook_CV.pdf`: downloadable two-page CV
