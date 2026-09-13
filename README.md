@@ -1,4 +1,4 @@
-# Keun-Young Yook — personal website
+# Kyook CV — Keun-Young Yook
 
 A self-contained academic website built with HTML, CSS, and a small progressive-enhancement script. No framework, external fonts, analytics, or third-party scripts are required.
 
@@ -13,7 +13,9 @@ Open `dist/index.html` directly, or serve `dist` with any static HTTP server. Up
 
 ## Publishing
 
-This site uses the GitHub repository `keunbbang/keunbbang.github.io`. The source branch is `codex/site`. GitHub Pages serves the root of the `codex/pages` branch, which contains only the contents of `dist`.
+The requested site name is `kyook_CV`. The planned GitHub repository is `keunbbang/kyook_CV`, with the intended public URL `https://keunbbang.github.io/kyook_CV/`. This site has not been published: uploading the website and CV to a public repository is awaiting the user's explicit approval after automatic approval review blocked publication.
+
+The source branch is `codex/site`. Once publication is approved, GitHub Pages should serve the root of the `codex/pages` branch, which contains only the contents of `dist`. Asset links are relative, so the site works under the `/kyook_CV/` project path without a build step.
 
 After editing and committing on `codex/site`:
 
